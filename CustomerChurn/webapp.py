@@ -6,7 +6,7 @@ from PIL import Image
 
 #load the model from disk
 import joblib
-model = joblib.load("weights/model.pkl")
+model = joblib.load("CustomerChurn/weights/model.pkl")
 
 #Import python scripts
 from preprocessing.preprocess import preprocess
