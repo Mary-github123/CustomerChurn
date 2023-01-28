@@ -17,7 +17,7 @@ def main():
     # st.markdown("<h3></h3>", unsafe_allow_html=True)
 
     #Setting Application sidebar default
-    image = Image.open('img3.png')
+    image = Image.open('CustomerChurn/img3.png')
     st.sidebar.info(':dart:  This Streamlit app is made to predict customer churn for a fictional ecommerce company.')
     add_selectbox = st.sidebar.selectbox(
     "How would you like to predict?", ("Input Data", "Upload CSV"), help="You can either predict for single customer or upload CSV file to predict for a batch of customers")
